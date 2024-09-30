@@ -1,0 +1,76 @@
+header{
+    background-color: white;
+     position:fixed;
+ 
+  z-index: 1000;
+    width: 100%;
+   
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding:  2rem 9%;
+     box-shadow: 0px 0px 10px rgb(204, 197, 197);
+   height: 0px;
+ }
+ 
+ header .logo{
+     color: black;
+     font-weight:800;
+     
+ }
+ 
+ 
+ header i{
+     color: rgb(133, 54, 54);
+ }
+ .navbar a{
+     color: black;
+     font-size: 16px;
+     margin-right: 20px;
+     font-weight: 500;
+     text-decoration: none;
+   
+ }
+ .navbar a:hover{
+   color:orange;
+ }
+ header .icons div{
+     color: black;
+     
+     width: 45px;
+   line-height: 30px;
+     background:#eee;
+     border-radius: 5px;
+     margin-left:10px;
+     text-align: center;
+     cursor: pointer;
+ }
+ header .icons div:hover{
+     background: rgb(220, 185, 120);
+     color: white;
+ }
+ @media only screen and (max-width: 600px){
+  .navbar{
+    display: none;
+  }
+  .logo{
+    font-size: 14px;
+  
+  }
+  .icons div{
+    font-size: 14px;
+  }
+  
+}
+ @media (min-width: 600px) and (max-width: 959px){
+  .logo{
+    font-size: 12px;
+    
+  }
+  .navbar a{
+    font-size: 10px;
+  }
+  .icons div{
+  font-size:   12px;
+ width: 30px!important;
+ }}

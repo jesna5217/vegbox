@@ -1,0 +1,131 @@
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+    
+}
+.fruit-card{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    border: 1px solid rgb(235, 219, 219);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    background-color:white;
+    margin-right: 20px;
+    border-left: none;
+    border-top: none;
+    border-top: none;
+transition: .5s ease-in-out;
+margin-bottom: 30px;
+}
+.fruit-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+  
+}
+.boxing img{
+    box-shadow: 1px 2px #efe9e9;
+transition: .5s ease-in-out;
+}
+.boxing img:hover{
+    transform: scale(1.1);
+}
+.boxing p{
+    margin: 20px;
+    opacity: .8;
+}
+.boxing button{
+    margin-top: 60px;
+ font-size: 15px;
+}
+.add{
+    margin-left: 10px;
+ font-size: 15px;
+
+}
+.like{
+    position: absolute;
+  right: 10%;
+  top: 10%;
+}
+@media only screen and (max-width: 600px){
+    .exotic{
+        padding: 0px 20px!important;
+    }
+    .exotic h1{
+        font-size: 16px!important;
+    }
+    .fruit-grid{
+        gap: 10px;
+    }
+    .fruit-card{
+        position: relative;
+        width: 150px;
+        height: 230px;
+        border: 1px solid rgb(235, 219, 219);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 5px;
+        background-color:white;
+        margin-right: 10px;
+       
+        border-top: none;
+        border-top: none;
+    transition: .5s ease-in-out;
+    margin-bottom: 30px;
+    }
+    .boxing img{
+        height: 100px;
+        width: 100%;
+    }
+    .boxing p{
+        font-size: 10px;
+    }
+    button{
+        width: 60px;
+        font-size: 10px!important;
+    }
+   .like{
+    top: 2%;
+   }
+}
+@media (min-width: 600px) and (max-width: 959px){
+    .exotic{
+        padding: 0px 50px!important;
+    }
+    .exotic h1{
+        font-size: 18px!important;
+    }
+    .fruit-grid{
+        gap: 10px;
+    }
+    .fruit-card{
+        position: relative;
+        width: 200px;
+        height: 300px;
+        border: 1px solid rgb(235, 219, 219);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 5px;
+        background-color:white;
+        margin-right: 16px;
+       
+        border-top: none;
+        border-top: none;
+    transition: .5s ease-in-out;
+    margin-bottom: 30px;
+    }
+    .boxing img{
+        height: 180px;
+        width: 100%;
+    }
+    .boxing p{
+        font-size: 10px;
+    }
+    button{
+        width: 70px;
+        font-size: 12px!important;
+    }
+   .like{
+    top: 2%;
+   }
+}
