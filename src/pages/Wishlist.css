@@ -1,11 +1,31 @@
+.wishlist-img{
+    height: 210px;
+}
+.wish{
+    position: absolute;
+    bottom:25%;
+
+}
+.sec{
+height: 290px;
+}
 @media (min-width: 600px) and (max-width: 959px){
 .first{
     margin-top: 100px;
 }
 .sec{
-    height: 270px;
+   height: 250px;
     width: 250px;
 } 
+.wishlist-img{
+    height: 210px;
+}
+.wish{
+    position: absolute;
+    bottom:25%;
+
+}
+
 }
 @media only screen and (max-width: 600px){
  .first{
@@ -27,15 +47,4 @@
         margin-left: -40px;
         margin-top: 50px;
     }
-}
-.wishlist-img{
-    height: 210px;
-}
-.wish{
-    position: absolute;
-    bottom:25%;
-
-}
-.sec{
-height: 290px;
 }
