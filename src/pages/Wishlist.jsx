@@ -20,15 +20,16 @@ function Wishlist() {
   {wishlistArray.map((item)=>(
   
   <div className="img-card sec">
-  <img src={item.image} alt="" height="250px" width="100%" style={{borderRadius:'10px'}} />
+  <img src={item.image} alt="" height="250px" width="100%" style={{borderRadius:'10px'}} className='wishlist-img' />
   <div className='description'>
       <span style={{ fontSize: '12px', color: 'green' }}>VegBox</span>
-      <div className="price d-flex">
+      <div className="price d-flex justify-content-between ">
   
           <h5 style={{ fontSize: '16px' }} className='me-5'>{item.title}</h5>
           <h4 style={{ fontSize: '18px' }}> &#x20B9;{item.price}/kg</h4>
-         <button onClick={()=>dispatch(addToCart(item))} style={{backgroundColor:'transparent'}}> <i class="fa-solid fa-cart-shopping cart"></i></button>
       </div>
+      <button onClick={()=>dispatch(addToCart(item))} style={{backgroundColor:'transparent'}}> <i class="fa-solid fa-cart-shopping cart wish"></i></button>
+
       <button onClick={()=>dispatch(removeFromWishlist(item.id))}>
       <i class="fa-solid fa-trash-can heart"></i>
   </button>

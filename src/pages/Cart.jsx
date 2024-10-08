@@ -61,7 +61,7 @@ function Cart() {
                 <td>{item.title}</td>
                 <td><img src={item.image} alt="" height="50px"/></td>
                 <td>₹{item.price}</td>
-            <td><button  variant='outline-danger' onClick={()=>dispatch(removeFromCart(item.id))} ><i  class='fa-solid fa-trash' style={{color:'rgb(216, 96, 96)'}}></i></button></td>
+            <td><button  variant='outline-danger btn' onClick={()=>dispatch(removeFromCart(item.id))} ><i  class='fa-solid fa-trash' style={{color:'rgb(216, 96, 96)'}}></i></button></td>
 
                </tr>
               ))

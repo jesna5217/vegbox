@@ -100,7 +100,7 @@ const dispatch=useDispatch();
  fruits.map((item)=>(
 <div className="fruit-card">
     <div className="boxing">
-      <img src={item.image} alt="" height='260px'/>
+      <img src={item.image} alt="" height='200px' width='100%'/>
       <p>
     {item.title}</p></div>
           <button type="button" class="btn btn-light">MRP  &#x20B9; {item.price}</button>

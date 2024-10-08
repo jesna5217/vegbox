@@ -15,6 +15,7 @@ marquee p{
     font-size: 50px;
     font-weight: 700;
     color: rgb(93, 65, 65);
+    cursor: pointer;
 }
 .heading p,.heading2 p{
     margin-bottom: -10px;
@@ -24,12 +25,14 @@ marquee p{
     transform: translateY(30px);
     animation: moveup 0.5s linear forwards ;
 }
+
 @keyframes moveup{
     100%{
         opacity:1;
         transform: translateY(0px);
     }
 }
+
 .one{
     animation-delay: 0.5s;
 }

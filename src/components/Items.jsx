@@ -96,7 +96,7 @@ const dispatch=useDispatch();
 {items.map((item)=>(
 
 <div className="img-card">
-<img src={item.image} alt="" height="250px" width="100%" style={{borderRadius:'10px'}} />
+<img src={item.image} alt="" height="200px" width="100%" style={{borderRadius:'10px'}} />
 <div className='description'>
     <span style={{ fontSize: '12px', color: 'green' }} className='veg'>VegBox</span>
     <div className="price d-flex">
